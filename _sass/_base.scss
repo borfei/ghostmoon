@@ -1,0 +1,13 @@
+body {
+    background-color: black;
+    color: white;
+    font-family: 'Azeret Mono', monospace;
+    text-transform: lowercase;
+}
+
+footer::before {
+    content: "";
+    width: 100%;
+    display: block;
+    border-top: 1px solid white;
+}

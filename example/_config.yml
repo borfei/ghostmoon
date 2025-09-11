@@ -1,2 +1,11 @@
-title: Ghostmoon Theme (Preview)
+title: GhostMoon
+author: borfei
 theme: ghostmoon
+
+nav:
+  - title: "Demo"
+    url: "/"
+  - title: "Playground"
+    url: "/playground"
+  - title: "About"
+    url: "/about"

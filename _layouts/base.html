@@ -2,6 +2,23 @@
 <html lang="{{ page.lang | default: site.lang | default: 'en' }}">
 <head>{%- include head.html -%}</head>
 <body>
+    <header>
+        <p>{{ site.title }}</p>
+        <nav>
+            <ul>
+                {% for item in site.nav %}
+                    <li><a href="{{ item.url | relative_url }}">{{ item.title }}</a></li>
+                {% endfor %}
+            </ul>
+        </nav>
+    </header>
     {{ content }}
+    <footer>
+        <small>
+            &copy; {{ site.copyright | default: site.author }}
+            &frasl;
+            {{ site.time | date: '%Y' }}
+        </small>
+    </footer>
 </body>
 </html>

@@ -1,0 +1,13 @@
+---
+---
+
+@use "base";
+@use "layout";
+@use "components";
+
+body {
+    background-image: url("{{ '/assets/img/background.webp' | relative_url }}");
+    background-position: top right;
+    background-size: contain;
+    background-repeat: no-repeat;
+}

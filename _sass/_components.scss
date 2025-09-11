@@ -1,0 +1,59 @@
+nav ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+
+    li+li::before {
+        content: '\25A0';
+        margin: 0 20px;
+    }
+
+    li a {
+        background-color: none;
+        color: white;
+        padding: .3rem .3rem;
+        transition:
+            background-color .3s ease,
+            color .1s ease;
+        text-decoration: none;
+    }
+
+    li a:hover {
+        background-color: white;
+        color: black;
+        text-decoration: underline;
+    }
+}
+
+a {
+    color: white;
+    text-decoration: underline;
+
+    &:hover {
+        text-decoration: none;
+    }
+}
+
+button,
+input[type=submit] {
+    border: none;
+    background-color: none;
+    font-family: inherit;
+    padding: .5rem .8rem;
+    transition:
+        background-color .3s ease,
+        color .1s ease;
+
+    &:hover {
+        background-color: #111;
+        color: white;
+        cursor: pointer;
+    }
+
+    &:disabled {
+        background-color: #111;
+        color: gray;
+        cursor: not-allowed;
+    }
+}
