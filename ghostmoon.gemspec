@@ -1,13 +1,13 @@
 # frozen_string_literal: true
 
 Gem::Specification.new do |spec|
-  spec.name          = "jekyll-theme-ghostmoon"
+  spec.name          = "ghostmoon"
   spec.version       = "0.1.0"
   spec.authors       = ["borfei"]
   spec.email         = ["184122023+borfei@users.noreply.github.com"]
 
   spec.summary       = "Very dark and minimal theme for Jekyll."
-  spec.homepage      = "https://github.com/borfei/jekyll-theme-ghostmoon"
+  spec.homepage      = "https://github.com/borfei/ghostmoon"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files -z`.split("\x0").select { |f| f.match(%r!^(assets|_data|_layouts|_includes|_sass|LICENSE|README|_config\.yml)!i) }
