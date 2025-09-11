@@ -4,9 +4,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>
         {% if page.title %}
-            {{ page.title }} | {{ site.title }}
+            {{ page.title | downcase }} - {{ site.title | downcase }}
         {% else %}
-            {{ site.title }}
+            {{ site.title | downcase }}
         {% endif %}
     </title>
 </head>
