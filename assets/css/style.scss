@@ -8,6 +8,6 @@
 body {
     background-image: url("{{ '/assets/img/background.webp' | relative_url }}");
     background-position: top right;
-    background-size: contain;
+    background-size: 50%;
     background-repeat: no-repeat;
 }
