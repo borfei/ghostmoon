@@ -1,9 +1,6 @@
 title: GhostMoon
 author: borfei
-theme: ghostmoon
-
-url: "https://borfei.github.io"
-baseurl: "/ghostmoon"
+theme: null
 
 nav:
   - title: "Demo"
