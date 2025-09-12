@@ -10,7 +10,16 @@ Gem::Specification.new do |spec|
   spec.homepage      = "https://github.com/borfei/ghostmoon"
   spec.license       = "MIT"
 
-  spec.files         = `git ls-files -z`.split("\x0").select { |f| f.match(%r!^(assets|_data|_layouts|_includes|_sass|LICENSE|README|_config\.yml)!i) }
+  spec.files         = Dir.chdir(File.expand_path(__dir__)) do
+    Dir[
+      "LICENSE",
+      "README.md",
+      "assets/**/*",
+      "_layouts/**/*",
+      "_includes/**/*",
+      "_sass/**/*",
+    ]
+  end
 
   spec.add_runtime_dependency "jekyll", "~> 4.4"
 end
