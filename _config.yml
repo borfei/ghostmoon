@@ -7,8 +7,8 @@ baseurl: "/ghostmoon"
 
 nav:
   - title: "Demo"
-    url: "/"
+    url: "/demo"
   - title: "Playground"
     url: "/playground"
   - title: "About"
-    url: "/about"
+    url: "/"
