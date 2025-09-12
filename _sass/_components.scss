@@ -61,3 +61,22 @@ input[type=submit] {
         cursor: not-allowed;
     }
 }
+
+table {
+    border-collapse: collapse;
+
+    th,
+    td {
+        border: 2px solid white;
+        padding: 12px 20px;
+        text-align: left;
+    }
+
+    th {
+        background: #222;
+    }
+
+    td {
+        background: #111;
+    }
+}
