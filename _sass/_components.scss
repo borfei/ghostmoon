@@ -38,7 +38,7 @@ a {
 button,
 input[type=submit] {
     border: none;
-    background-color: none;
+    background-color: white;
     font-family: inherit;
     padding: .5rem .8rem;
     transition:
@@ -49,6 +49,10 @@ input[type=submit] {
         background-color: #111;
         color: white;
         cursor: pointer;
+    }
+
+    &:active {
+        background-color: #222;
     }
 
     &:disabled {
