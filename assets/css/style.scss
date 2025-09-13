@@ -5,9 +5,23 @@
 @use "layout";
 @use "components";
 
+@font-face {
+    font-family: "Azeret Mono";
+    src: url("{{ '/assets/fonts/AzeretMono-VariableFont_wght.ttf' | relative_url }}");
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Azeret Mono";
+    src: url("{{ '/assets/fonts/AzeretMono-Italic-VariableFont_wght.ttf' | relative_url }}");
+    font-style: italic;
+}
+
 body {
     background-image: url("{{ '/assets/img/background.webp' | relative_url }}");
     background-position: top right;
     background-size: 50%;
     background-repeat: no-repeat;
+
+    font-family: "Azeret Mono", monospace;
 }
