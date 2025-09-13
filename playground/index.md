@@ -5,9 +5,8 @@ title: Playground
 
 # Playground
 
-On this page, you can play around certain elements to see
-how the theme looks like. You can also play around the
-blog posts to check how they look like.
+This page shows a preview of the theme in action.
+Mess around the elements and see what happens.
 
 ## Bullet List
 
