@@ -35,43 +35,11 @@ blog posts to check how they look like.
 </form>
 
 ## Table
-<table>
-  <caption>
-    Front-end web developer course 2021
-  </caption>
-  <thead>
-    <tr>
-      <th scope="col">Person</th>
-      <th scope="col">Most interest in</th>
-      <th scope="col">Age</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <th scope="row">Chris</th>
-      <td>HTML tables</td>
-      <td>22</td>
-    </tr>
-    <tr>
-      <th scope="row">Dennis</th>
-      <td>Web accessibility</td>
-      <td>45</td>
-    </tr>
-    <tr>
-      <th scope="row">Sarah</th>
-      <td>JavaScript frameworks</td>
-      <td>29</td>
-    </tr>
-    <tr>
-      <th scope="row">Karen</th>
-      <td>Web performance</td>
-      <td>36</td>
-    </tr>
-  </tbody>
-  <tfoot>
-    <tr>
-      <th scope="row" colspan="2">Average age</th>
-      <td>33</td>
-    </tr>
-  </tfoot>
-</table>
+
+| Row 1          | Row 2          | Row 3      |
+| -------------- | -------------- | ---------- |
+| Column 1       | Column 6       | Column 11  |
+| Column 2       | Column 7       | Column 12  |
+| Column 3       | Column 8       | Column 13  |
+| Column 4       | Column 9       | Column 14  |
+| Column 5       | Column 10      | Column 15  |
