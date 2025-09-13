@@ -71,6 +71,7 @@ footer::before {
 }
 
 input {
+
     &[type="text"],
     &[type="email"],
     &[type="password"],
@@ -87,15 +88,30 @@ input {
         font-size: inherit;
         padding: 5px 0;
         width: 250px;
+        transition: border-color .3s ease;
 
         &::placeholder {
             color: gray;
+        }
+
+        &:hover,
+        &:focus {
+            border-color: #222;
         }
 
         &:disabled,
         &:read-only {
             border-color: #222;
             cursor: not-allowed;
+        }
+    }
+
+    &[type="search"] {
+        &::-webkit-search-decoration,
+        &::-webkit-search-cancel-button,
+        &::-webkit-search-results-button,
+        &::-webkit-search-results-decoration {
+            display: none; // disable the default search icon
         }
     }
 
