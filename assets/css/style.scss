@@ -1,7 +1,6 @@
 ---
 ---
 
-@use "base";
 @use "layout";
 @use "components";
 
@@ -18,10 +17,12 @@
 }
 
 body {
+    background-color: black;
     background-image: url("{{ '/assets/img/background.webp' | relative_url }}");
     background-position: top right;
     background-size: 50%;
     background-repeat: no-repeat;
-
+    color: white;
     font-family: "Azeret Mono", monospace;
+    text-transform: lowercase;
 }
