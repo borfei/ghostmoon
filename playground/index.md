@@ -4,11 +4,13 @@ title: Playground
 ---
 
 # Playground
+
 On this page, you can play around certain elements to see
 how the theme looks like. You can also play around the
 blog posts to check how they look like.
 
 ## Bullet List
+
 - Item 1
 - Item 2
   - Item 2.1
@@ -18,10 +20,12 @@ blog posts to check how they look like.
 - [Item 5](#bullet-list)
 
 ## Buttons
+
 <button>Click Me!</button>
 <button disabled>Disabled</button>
 
 ## Form
+
 <form method="get">
   <div>
     <label for="name">Enter your name: </label>
