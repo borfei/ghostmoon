@@ -57,7 +57,7 @@ input[type=submit] {
     }
 
     &:disabled {
-        background-color: #111;
+        background-color: #222;
         color: gray;
         cursor: not-allowed;
     }
@@ -94,7 +94,7 @@ input {
 
         &:disabled,
         &:read-only {
-            border-color: gray;
+            border-color: #222;
             cursor: not-allowed;
         }
     }
@@ -109,10 +109,13 @@ input {
         cursor: pointer;
         display: inline-block;
         vertical-align: middle;
-        transition: background-color .3s ease;
+        transition:
+            background-color .3s ease,
+            border-color .1s ease;
 
         &:hover {
             background-color: #222;
+            border-color: #222;
         }
 
         &:checked::after {
@@ -129,7 +132,7 @@ input {
         }
 
         &:disabled {
-            border-color: gray;
+            border-color: #222;
             cursor: not-allowed;
         }
     }
