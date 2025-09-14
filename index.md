@@ -3,7 +3,7 @@ layout: page
 ---
 
 # GhostMoon
-A very minimal and dark theme for Jekyll. *Stalled.*
+A very minimal and dark theme for Jekyll. *No longer maintained and unfinished.*
 
 - [View on GitHub](https://github.com/borfei/ghostmoon)
 - [Report an issue](https://github.com/borfei/ghostmoon/issues/new)
