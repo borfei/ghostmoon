@@ -1,5 +1,8 @@
 # Ghostmoon
-A very minimal and dark theme for Jekyll. This is a **work in progress** theme.
+A very minimal and dark theme for Jekyll.
+
+> [!NOTE]
+> This project has been stalled and is no longer being maintained.
 
 ## Installation
 Add this line to your Jekyll site's `Gemfile`:
